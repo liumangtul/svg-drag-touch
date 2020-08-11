@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* res.leju.com/resources/rem.js */
+@function srem($px){
+@return $px*(1/50)*1rem
+}
+.sprite-index {
+background-image: url(sprites/index.png);
+background-repeat: no-repeat;
+background-size:srem(171) auto;
+}
+.sprite-index-l_bl {
+@extend .sprite-index;
+width: srem(101);
+height: srem(118);
+background-position: srem(4) srem(4);
+}
+.sprite-index-ok_stat {
+@extend .sprite-index;
+width: srem(56);
+height: srem(56);
+background-position: srem(4) srem(-114);
+}
+.sprite-index-r_bl {
+@extend .sprite-index;
+width: srem(78);
+height: srem(118);
+background-position: srem(-97) srem(4);
+}

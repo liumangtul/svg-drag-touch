@@ -1,0 +1,8 @@
+{
+	"header$": "pc/house/1.0.0/header/header.js",
+	"search$": "pc/house/1.0.0/search/search.js",
+    "kft-dialog$": "huodong/1.3.0/dialog/dialog.js",
+    "freecallme-dialog$": "pc/house/1.0.0/callme/dialog.js",
+    "yueche-dialog$": "pc/house/1.0.0/yueche/yueche.js",
+    "house-login$": "pc/house/1.0.0/login/login.js"
+}

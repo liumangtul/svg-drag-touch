@@ -1,0 +1,191 @@
+body{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+
+}
+.wy_beautylife_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background-image: url(./static/index/bg.png), linear-gradient(180deg,rgba(70,139,240,1) 0%,rgba(79,145,239,1) 29%,rgba(82,145,236,1) 100%);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    .wy_show_wrap{
+        width: rem(690);
+        height: rem(342);
+        margin: rem(257) auto 0 auto;
+        position: relative;
+        .wy_svg_wrap{
+            position: absolute;
+            left:0;
+            top:0;
+            width:100%;
+            height:100%;
+            z-index: 9;
+            svg{
+
+            }
+        }
+        .wy_svg_bg{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            padding:1px;
+            img{
+                width:100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .wy_ctr_wrap{
+        position: relative;
+        margin-top: rem(184);
+        border-radius: rem(20);
+        border: 5px solid rgba(0,0,0,.14);
+        background: #fff;
+        background-clip: content-box;
+        width: rem(650);
+        //height: rem(130);
+        overflow: hidden;
+        box-sizing: border-box;
+        overflow: hidden;
+        &.ready_wrap:after{
+            position: absolute;
+            left:0%;
+            top:0%;
+            width:100%;
+            height:100%;
+            background: rgba(0,0,0,1);
+            opacity: 0.14;
+            content:'';
+        }
+        .wy_ctr_lb{
+            position: absolute;
+            left:0;
+            top:0;
+            z-index: 3;
+            .wy_ctr_lb_1{
+                transform: translate(rem(-4), rem(-4));
+                @extend .sprite-index-l_bl;
+            }
+        }
+        .wy_ctr_rb{
+            position: absolute;
+            right:0;
+            top:0;
+            z-index: 3;
+            .wy_ctr_rb_1{
+                transform: translate(rem(4), rem(-4));
+                @extend .sprite-index-r_bl;
+            }
+            .wy_ctr_rb_2{
+                position: absolute;
+                right:0;
+                top:0;
+                height: rem(110);
+                width: rem(130);
+                background: linear-gradient(180deg, rgba(135,50,247,1) 0%,rgba(71,19,137,1) 100%);
+                z-index: 2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: rem(12);
+                &:after{
+                    content:'';
+                    display: block;
+                    @extend .sprite-index-ok_stat;
+                }
+            }
+        }
+        .wy_ctr_cb{
+            p{
+                width: rem(630);
+                height: rem(110);
+                box-sizing: border-box;
+
+                color: #7b2ce2;
+                font-size: rem(35);
+                line-height: rem(110);
+                font-weight: 500;
+
+                &.ready{
+                    text-align: center;
+                    background-image: -webkit-linear-gradient(left, #fff, #7B2CE2, #fff, #7B2CE2, #fff);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    -webkit-animation: masked-animation 2s infinite linear;
+                    -webkit-background-size: 200% 100%;
+                }
+                &.ok{
+                    padding-left: rem(36);
+                }
+            }
+
+            @-webkit-keyframes masked-animation {
+                0%  { background-position: 0 0;}
+                100% { background-position: -100% 0;}
+            }
+        }
+    }
+}
+
+//path{
+//    animation: wps 3s ease-in-out forwards;
+//}
+//
+//
+//@keyframes wps {
+//    0% {
+//        stroke-dasharray: 0 100%;
+//    }
+//    100% {
+//        stroke-dasharray: 100% 0;
+//    }
+//}
+
+
+.body {
+    border: 1px solid #000;
+    margin: 0 auto;
+}
+
+
+.icons--grass {
+    padding: 0;
+    margin: 0;
+}
+
+.image {
+    width:692px;
+    height:343px;
+}
+
+.img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img img {
+    vertical-align: bottom;
+}
+
+.wrapper {
+    width: 13.8rem;
+    height: 6.84rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    overflow: hidden;
+}

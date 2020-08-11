@@ -1,0 +1,9 @@
+{
+    "jquery.hammer$": "hammer/2.0.6/jquery.hammer.js",
+    "zepto.hammer$": "hammer/2.0.6/jquery.hammer.js",
+    "wx$":"jweixin/1.0.0/jweixin.js",
+    "md5$":"crypto/1.0.0/core/md5.js",
+    "base64$":"crypto/1.0.0/core/base64.js",
+    "sha1$":"crypto/1.0.0/core/sha1.js",
+    "rsa$":"crypto/1.0.0/core/rsa.js"
+}
