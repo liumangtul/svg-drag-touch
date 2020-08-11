@@ -59,7 +59,7 @@ config.module.rules[0] = {
         {
             loader: "sass-loader",
             options: {
-                data: global.ISTEST?'$reshost: "res.bch.leju.com";':'$reshost: "res.leju.com";'
+                data: global.ISTEST?'$reshost: "test.trunk.abc.com";':'$reshost: "test.trunk.abc.com/";'
             }
         }
     ]

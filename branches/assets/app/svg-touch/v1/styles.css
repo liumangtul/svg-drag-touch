@@ -158,7 +158,6 @@ a {
   -moz-transition: all 1s;
   transition: all 1s; }
 
-/* res.leju.com/resources/rem.js */
 .sprite-index, .sprite-index-l_bl, .wy_beautylife_wrap .wy_ctr_wrap .wy_ctr_lb .wy_ctr_lb_1, .sprite-index-ok_stat, .wy_beautylife_wrap .wy_ctr_wrap .wy_ctr_rb .wy_ctr_rb_2:after, .sprite-index-r_bl, .wy_beautylife_wrap .wy_ctr_wrap .wy_ctr_rb .wy_ctr_rb_1 {
   background-image: url(images/sprites-index.ea62faef141ea5ca590245b7a70ac797.png);
   background-repeat: no-repeat;

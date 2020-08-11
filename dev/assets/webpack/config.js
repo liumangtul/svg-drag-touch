@@ -145,7 +145,6 @@ const generateSpriteREM = function (data) {
     console.log('mobile(rem)', basename, x + 'x');
 
     let shared = `@charset "utf-8";
-    /* res.leju.com/resources/rem.js */
     @function srem($px){
         @return $px*(1/50)*1rem
     }
